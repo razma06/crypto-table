@@ -1,0 +1,36 @@
+/* border-color stylings */
+.border-gray {
+    border-color: lightgray;
+}
+.border-green {
+    border-color: #4eaf0a;
+}
+.border-red {
+    border-color: #e15241;
+}
+
+/* styling for card element */
+.card {
+    width: 23rem;
+    padding: 1rem;
+    margin-top: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 6px;
+    border-left: 0.5rem solid #4eaf0a;
+}
+
+/* styling market cap percentage change color and arrow icon */
+.up,
+.down {
+    font-size: 0.9rem;
+}
+
+.up::after {
+    content: "\2191";
+    color: green;
+}
+
+.down::after {
+    content: "\2193";
+    color: red;
+}

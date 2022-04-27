@@ -1,0 +1,28 @@
+.sticky {
+    position: sticky;
+}
+
+.left-0 {
+    left: 0;
+}
+
+.left-5 {
+    left: 4.48rem;
+}
+
+.width-32 {
+    width: 32vw;
+    text-align: left;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.justify-center {
+    justify-content: center;
+}

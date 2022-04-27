@@ -1,0 +1,40 @@
+.search {
+    background-color: rgb(240, 240, 240);
+    border: none;
+    border-radius: 5px;
+    padding: 0.75rem;
+    outline: none;
+}
+
+/* styling select element */
+select {
+    outline: none;
+    padding: 7px 40px 7px 12px;
+    width: 8rem;
+    height: 100%;
+    place-self: center;
+    border: 1px solid #e8eaed;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0 1px 3px -2px #9098a9;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 16px;
+    transition: all 150ms ease;
+}
+
+select:focus {
+    outline: none;
+    border-color: #0077ff1c;
+    box-shadow: 0 0 0 2px rgba(#0077ff, 0.2);
+}
+
+select:focus {
+    outline: none;
+    border-color: #0077ff2c;
+    box-shadow: 0 0 0 2px rgba(#0077ff, 0.2);
+}
+
+option:focus {
+    background-color: rgb(241, 241, 241);
+}
